@@ -1,10 +1,11 @@
-h1 {
+header {
     color:#FBEAEB;
     background-color: #3e50a7;
     text-align: center;
-    font-size: 1cm;
     font-style: italic;
+    font-size: 1.25em;
     line-height: 2em;
+    font-weight: bold;
 }
 
 h2 {
@@ -14,11 +15,17 @@ h2 {
 
 h1,
 h2,
+h4,
 h6 {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body {
     background-color:#FBEAEB;
     color:#2F3C7E;
+}
+
+#importantStuff{ 
+    color:#136aec;
+
 }
 
