@@ -128,3 +128,21 @@ p.right
     color:#518ce6;
     
 }
+
+fieldset
+{    
+    color:#e7d8d9;
+    background-color: #222d63;
+    border: 5px solid #5e6ec0;
+    width:200px;
+    height:100px;
+}
+
+textarea
+{
+    color:#e7d8d9;
+    background-color: #222d63;
+    border: 5px solid #5e6ec0;    
+    width:300px;
+    height:200px;
+}

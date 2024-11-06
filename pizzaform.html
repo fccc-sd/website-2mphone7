@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Form</title>
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<!--Setting up the web title.-->
+<body>
+    <header>
+        <h1>Mason's Page: Pizza Form</h1>
+        <h4>Placeholder.</h4>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html" title="Home Page">Home</a></li>
+            <li><a href="myathleticcareer.html" title="My Athletic Career">My Athletic Career</a></li>
+            <li><a href="table.html" title="CCP Table">CCP Table Assignment</a></li>
+            <li><a href="pizzaform.html" title="Pizza Form">Pizza Form</a></li>
+            <li><a href="game.html" title="My Games">Games</a></li>
+        </ul>
+    </nav>
+
+<!--Pizza Form: Name, Address, Phone-->
+    <form id="email_form" action="pizzaform.html" method="post"></form>
+    <h2><u>Enter your name, address, and phone number below.</u></h2>
+    Name: <input type="text" name="name" id="name" placeholder="Enter your name here.">
+    <br> <br>
+    Address: <input type="text" name="address" id="address" placeholder="Enter your address here.">
+    <br> <br>
+    Phone: <input type="text" name="phone" id="phone" placeholder="Enter your number here.">
+    <br> <br>
+<!--Pizza Form: Customizing It-->    
+    <p><strong>Customize your pizza here!</strong></p>
+    <fieldset>
+        <input type="radio" name="radAnswer" id="radAnswer" value="S">
+        <label for="small">10-Inch Small Pizza</label>
+        <br>
+        <input type="radio" name="radAnswer" id="radAnswer" value="M">
+        <label for="medium">12-Inch Medium Pizza</label>
+        <br>
+        <input type="radio" name="radAnswer" id="radAnswer" value="L">
+        <label for="large">14-Inch Large Pizza</label>                
+    </fieldset>
+    <br>
+    <fieldset>  
+        <input type="checkbox" name="pepperoni" id="pepperoni" value="PEP">
+        <label for="pepperoni">Pepperoni</label>
+        <br>
+        <input type="checkbox" name="sausage" id="sausage" value="SAU">
+        <label for="sausage">Sausage</label>
+        <br>        
+        <input type="checkbox" name="onions" id="onions" value="ON">
+        <label for="onions">Onions</label>
+        <br> 
+        <input type="checkbox" name="pineapple" id="pineapple" value="SAU">
+        <label for="pineapple">Pineapple</label>
+        <br>           
+        <input type="checkbox" name="olives" id="olives" value="OL">
+        <label for="olives">Black Olives</label>
+        <br>              
+    </fieldset>
+<!--Pizza Form: Notes for the cook-->    
+    <p>Please add any additional requests to the pizza here!</p>
+    <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+    <br>
+    <input type="button" value="Place Order">
+</body>
+
+</html>
