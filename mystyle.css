@@ -1,29 +1,28 @@
 
-
+/* All Text */
 body {
     margin: 0;
     padding: 0;
     background-color: rgb(255, 228, 196);
 }
 
+/* Full Nav Bar */
 nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   overflow: hidden;
   background-color: #333;
   display: flex;
 }
 
-nav li {
-  float: left;
-}
-
+/* Nav Bar Text */
 nav li a {
   display: block;
   color: white;
   text-align: center;
   padding: 14px 16px;
+  margin: 10px;
   text-decoration: none;
 }
 
@@ -32,6 +31,11 @@ li a:hover {
   background-color: #111;
 }
 
+/* DEXTER */
+/* DEXTER */
+/* DEXTER */
+/* DEXTER */
+/* DEXTER */
 .seasons-with-ratings {
   display: grid;
   grid-template-areas:
@@ -53,48 +57,95 @@ li a:hover {
   margin: 25px 25px 0px 25px;
   padding: 25px 50px 25px 50px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 
 .season11img {grid-area: image1; }
 .season11title {grid-area: title1; padding: 0px 50px 0px 50px; }
-.season11text {grid-area: text1; }
+.season11text {grid-area: text1; font-size: 20px; }
 
 .season2img {grid-area: image2; }
 .season2title {grid-area: title2; padding: 0px 50px 0px 50px; }
-.season2text {grid-area: text2; }
+.season2text {grid-area: text2; font-size: 20px; }
 
 .season4img {grid-area: image3; }
 .season4title {grid-area: title3; padding: 0px 50px 0px 50px; }
-.season4text {grid-area: text3; }
+.season4text {grid-area: text3; font-size: 20px; }
 
 .season1img {grid-area: image4; }
 .season1title {grid-area: title4; padding: 0px 50px 0px 50px; }
-.season1text {grid-area: text4; }
+.season1text {grid-area: text4; font-size: 20px; }
 
 .season7img {grid-area: image5; }
 .season7title {grid-area: title5; padding: 0px 50px 0px 50px; }
-.season7text {grid-area: text5; }
+.season7text {grid-area: text5; font-size: 20px; }
 
 .season3img {grid-area: image6; }
 .season3title {grid-area: title6; padding: 0px 50px 0px 50px; }
-.season3text {grid-area: text6; }
+.season3text {grid-area: text6; font-size: 20px; }
 
 .season9img {grid-area: image7; }
 .season9title {grid-area: title7; padding: 0px 50px 0px 50px; }
-.season9text {grid-area: text7; }
+.season9text {grid-area: text7; font-size: 20px; }
 
 .season10img {grid-area: image8; }
 .season10title {grid-area: title8; padding: 0px 50px 0px 50px; }
-.season10text {grid-area: text8; }
+.season10text {grid-area: text8; font-size: 20px; }
 
 .season5img {grid-area: image9; }
 .season5title {grid-area: title9; padding: 0px 50px 0px 50px; }
-.season5text {grid-area: text9; }
+.season5text {grid-area: text9; font-size: 20px; }
 
 .season6img {grid-area: image10; }
 .season6title {grid-area: title10; padding: 0px 50px 0px 50px; }
-.season6text {grid-area: text10; }
+.season6text {grid-area: text10; font-size: 20px; }
 
 .season8img {grid-area: image11; }
 .season8title {grid-area: title11; padding: 0px 50px 0px 50px; }
-.season8text {grid-area: text11; }
+.season8text {grid-area: text11; font-size: 20px; }
+
+/* BREAKING BAD & BETTER CALL SAUL */
+/* BREAKING BAD & BETTER CALL SAUL */
+/* BREAKING BAD & BETTER CALL SAUL */
+/* BREAKING BAD & BETTER CALL SAUL */
+/* BREAKING BAD & BETTER CALL SAUL */
+
+.seasons-with-ratings-2 {
+  display: grid;
+  grid-template-areas:
+      "Aimage1 Atitle1 Atext1"
+      "Aimage2 Atitle2 Atext2"
+      "Aimage3 Atitle3 Atext3"
+      "Aimage4 Atitle4 Atext4"
+      "Aimage5 Atitle5 Atext5"
+      "Aimage6 Atitle6 Atext6"
+      "Aimage7 Atitle7 Atext7"
+      "Aimage8 Atitle8 Atext8"
+      "Aimage9 Atitle9 Atext9"
+      "Aimage10 Atitle10 Atext10"
+      "Aimage11 Atitle11 Atext11";
+  justify-content: space-evenly;
+  row-gap: 25px;
+  justify-items: center;
+  background-color: rgb(221, 195, 162);
+  margin: 25px 25px 0px 25px;
+  padding: 25px 50px 25px 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.bb5img {grid-area: Aimage1; }
+.bb5title {grid-area: Atitle1; padding: 0px 50px 0px 50px; }
+.bb5text {grid-area: Atext1; font-size: 20px; }
+
+.bb4img {grid-area: Aimage2; }
+.bb4title {grid-area: Atitle2; padding: 0px 50px 0px 50px; }
+.bb4text {grid-area: Atext2; font-size: 20px; }
+
+.bcs6img {grid-area: Aimage3; }
+.bcs6title {grid-area: Atitle3; padding: 0px 50px 0px 50px; }
+.bcs6text {grid-area: Atext3; font-size: 20px; }
+
+.bcs5img {grid-area: Aimage4; }
+.bcs5title {grid-area: Atitle4; padding: 0px 50px 0px 50px; }
+.bcs5text {grid-area: Atext4; font-size: 20px; }
