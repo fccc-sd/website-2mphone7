@@ -1,5 +1,9 @@
+
+
 body {
-    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 228, 196);
 }
 
 nav ul {
@@ -8,7 +12,7 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
-  
+  display: flex;
 }
 
 nav li {
@@ -27,3 +31,70 @@ nav li a {
 li a:hover {
   background-color: #111;
 }
+
+.seasons-with-ratings {
+  display: grid;
+  grid-template-areas:
+      "image1 title1 text1"
+      "image2 title2 text2"
+      "image3 title3 text3"
+      "image4 title4 text4"
+      "image5 title5 text5"
+      "image6 title6 text6"
+      "image7 title7 text7"
+      "image8 title8 text8"
+      "image9 title9 text9"
+      "image10 title10 text10"
+      "image11 title11 text11";
+  justify-content: space-evenly;
+  row-gap: 25px;
+  justify-items: center;
+  background-color: rgb(221, 195, 162);
+  margin: 25px 25px 0px 25px;
+  padding: 25px 50px 25px 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.season11img {grid-area: image1; }
+.season11title {grid-area: title1; padding: 0px 50px 0px 50px; }
+.season11text {grid-area: text1; }
+
+.season2img {grid-area: image2; }
+.season2title {grid-area: title2; padding: 0px 50px 0px 50px; }
+.season2text {grid-area: text2; }
+
+.season4img {grid-area: image3; }
+.season4title {grid-area: title3; padding: 0px 50px 0px 50px; }
+.season4text {grid-area: text3; }
+
+.season1img {grid-area: image4; }
+.season1title {grid-area: title4; padding: 0px 50px 0px 50px; }
+.season1text {grid-area: text4; }
+
+.season7img {grid-area: image5; }
+.season7title {grid-area: title5; padding: 0px 50px 0px 50px; }
+.season7text {grid-area: text5; }
+
+.season3img {grid-area: image6; }
+.season3title {grid-area: title6; padding: 0px 50px 0px 50px; }
+.season3text {grid-area: text6; }
+
+.season9img {grid-area: image7; }
+.season9title {grid-area: title7; padding: 0px 50px 0px 50px; }
+.season9text {grid-area: text7; }
+
+.season10img {grid-area: image8; }
+.season10title {grid-area: title8; padding: 0px 50px 0px 50px; }
+.season10text {grid-area: text8; }
+
+.season5img {grid-area: image9; }
+.season5title {grid-area: title9; padding: 0px 50px 0px 50px; }
+.season5text {grid-area: text9; }
+
+.season6img {grid-area: image10; }
+.season6title {grid-area: title10; padding: 0px 50px 0px 50px; }
+.season6text {grid-area: text10; }
+
+.season8img {grid-area: image11; }
+.season8title {grid-area: title11; padding: 0px 50px 0px 50px; }
+.season8text {grid-area: text11; }
