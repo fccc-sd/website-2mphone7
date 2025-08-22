@@ -3,7 +3,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 228, 196);
+    background-color: rgb(30, 30, 30);
+    color:rgb(225, 225, 225)
 }
 
 /* Full Nav Bar */
@@ -12,14 +13,14 @@ nav ul {
   margin: 0;
   padding: 5px;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(50, 50, 50);
   display: flex;
 }
 
 /* Nav Bar Text */
 nav li a {
   display: block;
-  color: white;
+  color:rgb(200,200,200);
   text-align: center;
   padding: 14px 16px;
   margin: 10px;
@@ -27,8 +28,24 @@ nav li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+nav li a:hover {
   background-color: #111;
+}
+
+/* For regular text */
+
+.text-box {
+  justify-items: center;
+  background-color: rgb(50, 50, 50);
+  margin: 25px 25px 0px 25px;
+  padding: 25px 50px 25px 50px;
+}
+
+.text-box2 {
+  background-color: rgb(50, 50, 50);
+  margin: 25px 25px 0px 25px;
+  padding: 25px 50px 25px 50px;
+  line-height: 30px;
 }
 
 /* DEXTER */
@@ -36,6 +53,7 @@ li a:hover {
 /* DEXTER */
 /* DEXTER */
 /* DEXTER */
+
 .seasons-with-ratings {
   display: grid;
   grid-template-areas:
@@ -53,11 +71,12 @@ li a:hover {
   justify-content: space-evenly;
   row-gap: 25px;
   justify-items: center;
-  background-color: rgb(221, 195, 162);
+  background-color: rgb(50, 50, 50);
   margin: 25px 25px 0px 25px;
   padding: 25px 50px 25px 50px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  align-items: center;
 }
 
 .season11img {grid-area: image1; }
@@ -127,11 +146,12 @@ li a:hover {
   justify-content: space-evenly;
   row-gap: 25px;
   justify-items: center;
-  background-color: rgb(221, 195, 162);
+  background-color: rgb(50, 50, 50);
   margin: 25px 25px 0px 25px;
   padding: 25px 50px 25px 50px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
+  align-items:center;
 }
 
 .bb5img {grid-area: Aimage1; }
@@ -149,3 +169,31 @@ li a:hover {
 .bcs5img {grid-area: Aimage4; }
 .bcs5title {grid-area: Atitle4; padding: 0px 50px 0px 50px; }
 .bcs5text {grid-area: Atext4; font-size: 20px; }
+
+.bb3img {grid-area: Aimage5; }
+.bb3title {grid-area: Atitle5; padding: 0px 50px 0px 50px; }
+.bb3text {grid-area: Atext5; font-size: 20px; }
+
+.bcs4img {grid-area: Aimage6; }
+.bcs4title {grid-area: Atitle6; padding: 0px 50px 0px 50px; }
+.bcs4text {grid-area: Atext6; font-size: 20px; }
+
+.bcs3img {grid-area: Aimage7; }
+.bcs3title {grid-area: Atitle7; padding: 0px 50px 0px 50px; }
+.bcs3text {grid-area: Atext7; font-size: 20px; }
+
+.bb2img {grid-area: Aimage8; }
+.bb2title {grid-area: Atitle8; padding: 0px 50px 0px 50px; }
+.bb2text {grid-area: Atext8; font-size: 20px; }
+
+.bcs1img {grid-area: Aimage9; }
+.bcs1title {grid-area: Atitle9; padding: 0px 50px 0px 50px; }
+.bcs1text {grid-area: Atext9; font-size: 20px; }
+
+.bb1img {grid-area: Aimage10; }
+.bb1title {grid-area: Atitle10; padding: 0px 50px 0px 50px; }
+.bb1text {grid-area: Atext10; font-size: 20px; }
+
+.bcs2img {grid-area: Aimage11; }
+.bcs2title {grid-area: Atitle11; padding: 0px 50px 0px 50px; }
+.bcs2text {grid-area: Atext11; font-size: 20px; }
