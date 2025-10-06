@@ -1,0 +1,199 @@
+
+/* All Text */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 30, 30);
+    color:rgb(225, 225, 225)
+}
+
+/* Full Nav Bar */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: rgb(50, 50, 50);
+  display: flex;
+}
+
+/* Nav Bar Text */
+nav li a {
+  display: block;
+  color:rgb(200,200,200);
+  text-align: center;
+  padding: 14px 16px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+/* For regular text */
+
+.text-box {
+  justify-items: center;
+  background-color: rgb(50, 50, 50);
+  margin: 25px 25px 0px 25px;
+  padding: 25px 50px 25px 50px;
+}
+
+.text-box2 {
+  background-color: rgb(50, 50, 50);
+  margin: 25px 25px 0px 25px;
+  padding: 25px 50px 25px 50px;
+  line-height: 30px;
+}
+
+/* DEXTER */
+/* DEXTER */
+/* DEXTER */
+/* DEXTER */
+/* DEXTER */
+
+.seasons-with-ratings {
+  display: grid;
+  grid-template-areas:
+      "image1 title1 text1"
+      "image2 title2 text2"
+      "image3 title3 text3"
+      "image4 title4 text4"
+      "image5 title5 text5"
+      "image6 title6 text6"
+      "image7 title7 text7"
+      "image8 title8 text8"
+      "image9 title9 text9"
+      "image10 title10 text10"
+      "image11 title11 text11";
+  justify-content: space-evenly;
+  row-gap: 25px;
+  justify-items: center;
+  background-color: rgb(50, 50, 50);
+  margin: 25px 25px 0px 25px;
+  padding: 25px 50px 25px 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  align-items: center;
+}
+
+.season11img {grid-area: image1; }
+.season11title {grid-area: title1; padding: 0px 50px 0px 50px; }
+.season11text {grid-area: text1; font-size: 20px; }
+
+.season2img {grid-area: image2; }
+.season2title {grid-area: title2; padding: 0px 50px 0px 50px; }
+.season2text {grid-area: text2; font-size: 20px; }
+
+.season4img {grid-area: image3; }
+.season4title {grid-area: title3; padding: 0px 50px 0px 50px; }
+.season4text {grid-area: text3; font-size: 20px; }
+
+.season1img {grid-area: image4; }
+.season1title {grid-area: title4; padding: 0px 50px 0px 50px; }
+.season1text {grid-area: text4; font-size: 20px; }
+
+.season7img {grid-area: image5; }
+.season7title {grid-area: title5; padding: 0px 50px 0px 50px; }
+.season7text {grid-area: text5; font-size: 20px; }
+
+.season3img {grid-area: image6; }
+.season3title {grid-area: title6; padding: 0px 50px 0px 50px; }
+.season3text {grid-area: text6; font-size: 20px; }
+
+.season9img {grid-area: image7; }
+.season9title {grid-area: title7; padding: 0px 50px 0px 50px; }
+.season9text {grid-area: text7; font-size: 20px; }
+
+.season10img {grid-area: image8; }
+.season10title {grid-area: title8; padding: 0px 50px 0px 50px; }
+.season10text {grid-area: text8; font-size: 20px; }
+
+.season5img {grid-area: image9; }
+.season5title {grid-area: title9; padding: 0px 50px 0px 50px; }
+.season5text {grid-area: text9; font-size: 20px; }
+
+.season6img {grid-area: image10; }
+.season6title {grid-area: title10; padding: 0px 50px 0px 50px; }
+.season6text {grid-area: text10; font-size: 20px; }
+
+.season8img {grid-area: image11; }
+.season8title {grid-area: title11; padding: 0px 50px 0px 50px; }
+.season8text {grid-area: text11; font-size: 20px; }
+
+/* BREAKING BAD & BETTER CALL SAUL */
+/* BREAKING BAD & BETTER CALL SAUL */
+/* BREAKING BAD & BETTER CALL SAUL */
+/* BREAKING BAD & BETTER CALL SAUL */
+/* BREAKING BAD & BETTER CALL SAUL */
+
+.seasons-with-ratings-2 {
+  display: grid;
+  grid-template-areas:
+      "Aimage1 Atitle1 Atext1"
+      "Aimage2 Atitle2 Atext2"
+      "Aimage3 Atitle3 Atext3"
+      "Aimage4 Atitle4 Atext4"
+      "Aimage5 Atitle5 Atext5"
+      "Aimage6 Atitle6 Atext6"
+      "Aimage7 Atitle7 Atext7"
+      "Aimage8 Atitle8 Atext8"
+      "Aimage9 Atitle9 Atext9"
+      "Aimage10 Atitle10 Atext10"
+      "Aimage11 Atitle11 Atext11";
+  justify-content: space-evenly;
+  row-gap: 25px;
+  justify-items: center;
+  background-color: rgb(50, 50, 50);
+  margin: 25px 25px 0px 25px;
+  padding: 25px 50px 25px 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  align-items:center;
+}
+
+.bb5img {grid-area: Aimage1; }
+.bb5title {grid-area: Atitle1; padding: 0px 50px 0px 50px; }
+.bb5text {grid-area: Atext1; font-size: 20px; }
+
+.bb4img {grid-area: Aimage2; }
+.bb4title {grid-area: Atitle2; padding: 0px 50px 0px 50px; }
+.bb4text {grid-area: Atext2; font-size: 20px; }
+
+.bcs6img {grid-area: Aimage3; }
+.bcs6title {grid-area: Atitle3; padding: 0px 50px 0px 50px; }
+.bcs6text {grid-area: Atext3; font-size: 20px; }
+
+.bcs5img {grid-area: Aimage4; }
+.bcs5title {grid-area: Atitle4; padding: 0px 50px 0px 50px; }
+.bcs5text {grid-area: Atext4; font-size: 20px; }
+
+.bb3img {grid-area: Aimage5; }
+.bb3title {grid-area: Atitle5; padding: 0px 50px 0px 50px; }
+.bb3text {grid-area: Atext5; font-size: 20px; }
+
+.bcs4img {grid-area: Aimage6; }
+.bcs4title {grid-area: Atitle6; padding: 0px 50px 0px 50px; }
+.bcs4text {grid-area: Atext6; font-size: 20px; }
+
+.bcs3img {grid-area: Aimage7; }
+.bcs3title {grid-area: Atitle7; padding: 0px 50px 0px 50px; }
+.bcs3text {grid-area: Atext7; font-size: 20px; }
+
+.bb2img {grid-area: Aimage8; }
+.bb2title {grid-area: Atitle8; padding: 0px 50px 0px 50px; }
+.bb2text {grid-area: Atext8; font-size: 20px; }
+
+.bcs1img {grid-area: Aimage9; }
+.bcs1title {grid-area: Atitle9; padding: 0px 50px 0px 50px; }
+.bcs1text {grid-area: Atext9; font-size: 20px; }
+
+.bb1img {grid-area: Aimage10; }
+.bb1title {grid-area: Atitle10; padding: 0px 50px 0px 50px; }
+.bb1text {grid-area: Atext10; font-size: 20px; }
+
+.bcs2img {grid-area: Aimage11; }
+.bcs2title {grid-area: Atitle11; padding: 0px 50px 0px 50px; }
+.bcs2text {grid-area: Atext11; font-size: 20px; }
